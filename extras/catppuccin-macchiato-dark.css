@@ -1,0 +1,12 @@
+@import url('./catppuccin/base.css');
+@import url('./catppuccin/macchiato.css');
+@import url('./catppuccin/accents.css');
+/* Custom blend: Mocha backgrounds and surfaces, Macchiato text and accents. */
+:root {
+  --base-rgb: 30,30,46;
+  --mantle-rgb: 24,24,37;
+  --crust-rgb: 17,17,27;
+  --surface0-rgb: 49,50,68;
+  --surface1-rgb: 69,71,90;
+  --surface2-rgb: 88,91,112;
+}

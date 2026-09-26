@@ -1,0 +1,38 @@
+/* Visible Catppuccin accents; colors come from the selected flavor. */
+#write h1 { color: var(--mauve) !important; border-bottom-color: var(--mauve); }
+#write h2 { color: var(--pink) !important; border-bottom-color: var(--surface1); }
+#write h3 { color: var(--peach) !important; }
+#write h4 { color: var(--yellow) !important; }
+#write h5 { color: var(--green) !important; }
+#write h6 { color: var(--teal) !important; }
+#write strong, #write b { color: var(--sapphire) !important; }
+#write em, #write i { color: var(--green) !important; }
+#write a:not([role="menuitem"]) { color: var(--sapphire) !important; }
+#write a:not([role="menuitem"]):hover { color: var(--pink) !important; }
+#write code:not(.CodeMirror-code) { color: var(--peach); background-color: var(--mantle); }
+#write blockquote { color: var(--rosewater); border-left-color: var(--lavender); }
+#write li::marker { color: var(--mauve); }
+#write th { color: var(--lavender); }
+
+/* Obsidian-inspired interface accents. */
+:root {
+ --primary-color: var(--lavender);
+ --primary-btn-border-color: var(--lavender);
+ --primary-btn-text-color: var(--base);
+ --active-file-text-color: var(--lavender);
+ --active-file-border-color: var(--lavender);
+ --control-text-hover-color: var(--lavender);
+ --item-hover-text-color: var(--lavender);
+ --select-text-bg-color: rgba(var(--mauve-rgb), 0.25);
+}
+#write strong em, #write em strong { color: var(--teal) !important; }
+#write del { color: var(--maroon); }
+#write mark { background: var(--yellow); color: var(--base); }
+.file-list-item.active, .file-tree-node.active > .file-node-content {
+ color: var(--lavender) !important;
+ background-color: rgba(var(--lavender-rgb), 0.15) !important;
+}
+#write input[type="checkbox"] { accent-color: var(--green); }
+
+#write { max-width: 900px; padding: 32px 48px; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6 { line-height: 1.3; }
