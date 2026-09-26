@@ -1,21 +1,26 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/mikefwille/typora">Typora</a>
+	Catppuccin for <a href="https://typora.io">Typora</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-	<a href="https://github.com/mikefwille/typora/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/template?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/mikefwille/typora/issues"><img src="https://img.shields.io/github/issues/catppuccin/template?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/mikefwille/typora/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/mikefwille/typora/stargazers"><img src="https://img.shields.io/github/stars/mikefwille/typora?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/mikefwille/typora/issues"><img src="https://img.shields.io/github/issues/mikefwille/typora?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/mikefwille/typora/contributors"><img src="https://img.shields.io/github/contributors/mikefwille/typora?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 
 
 ## Previews
 
-Preview screenshots are being prepared before submission.
+<p align="center"><img src="assets/preview.webp" alt="Four Catppuccin flavors in Typora" /></p>
+
+<details><summary>🌻 Latte</summary><img src="assets/latte.png" alt="🌻 Latte in Typora" /></details>
+<details><summary>🪴 Frappé</summary><img src="assets/frappe.png" alt="🪴 Frappé in Typora" /></details>
+<details><summary>🌺 Macchiato</summary><img src="assets/macchiato.png" alt="🌺 Macchiato in Typora" /></details>
+<details><summary>🌿 Mocha</summary><img src="assets/mocha.png" alt="🌿 Mocha in Typora" /></details>
 
 ## Usage
 
@@ -39,7 +44,9 @@ It is an extra, not the standard Macchiato palette.
 ## Compatibility
 
 Developed for Typora on macOS.
-The packaged themes still need a final visual check; Windows and Linux have not been tested.
+The four packaged flavors were visually checked with headings, links, emphasis, quotes, tasks, tables and Python code.
+Windows and Linux have not been tested.
+Dialogs, print/export layouts, and diagrams still need a broader compatibility check.
 The preview document is `examples/preview.md`.
 
 ## Attribution
@@ -48,7 +55,7 @@ This port builds on [Stephan Lamoureux's Typora theme](https://github.com/stepha
 Visible accent styling was developed by Mike Wille, with inspiration from [Catppuccin for Obsidian](https://github.com/catppuccin/obsidian).
 The repository structure follows [Catppuccin's template](https://github.com/catppuccin/template).
 
-Community submission; not yet adopted or endorsed by the Catppuccin organization.
+Community port draft; not yet adopted or endorsed by the Catppuccin organization.
 
 ## 💝 Thanks to
 

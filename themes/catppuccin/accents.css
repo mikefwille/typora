@@ -23,7 +23,11 @@
  --active-file-border-color: var(--lavender);
  --control-text-hover-color: var(--lavender);
  --item-hover-text-color: var(--lavender);
- --select-text-bg-color: rgba(var(--mauve-rgb), 0.25);
+ --select-text-bg-color: rgba(var(--overlay2-rgb), 0.25);
+ --md-char-color: var(--overlay1);
+ --meta-content-color: var(--subtext1);
+ --window-border: 1px solid var(--surface1);
+ --monospace: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 #write strong em, #write em strong { color: var(--teal) !important; }
 #write del { color: var(--maroon); }
@@ -36,3 +40,10 @@
 
 #write { max-width: 900px; padding: 32px 48px; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6 { line-height: 1.3; }
+
+/* Keep accent button text readable against its matching fill. */
+.btn-primary:not(:hover) { background-color: var(--lavender); color: var(--base); }
+#write code:not(.CodeMirror-code) { color: var(--peach) !important; }
+
+/* Keep the writing canvas on the flavor base rather than a Typora default surface. */
+html, body, #write, #typora-source { background-color: var(--base) !important; }

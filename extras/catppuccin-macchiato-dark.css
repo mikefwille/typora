@@ -10,3 +10,5 @@
   --surface1-rgb: 69,71,90;
   --surface2-rgb: 88,91,112;
 }
+
+html, body, #write, #typora-source { background: #1e1e2e !important; }

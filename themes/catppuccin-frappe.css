@@ -1,3 +1,6 @@
 @import url('./catppuccin/base.css');
 @import url('./catppuccin/frappe.css');
 @import url('./catppuccin/accents.css');
+
+/* Explicit canvas color for Typora's theme loader. */
+html, body, #write, #typora-source { background: #303446 !important; }
