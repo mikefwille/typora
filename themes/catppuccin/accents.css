@@ -14,7 +14,7 @@
 #write li::marker { color: var(--mauve); }
 #write th { color: var(--lavender); }
 
-/* Obsidian-inspired interface accents. */
+/* Pastel interface accents. */
 :root {
  --primary-color: var(--lavender);
  --primary-btn-border-color: var(--lavender);

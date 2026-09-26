@@ -19,6 +19,7 @@ def package():
         "themes/catppuccin/base.css",
         "themes/catppuccin/accents.css",
         "extras/catppuccin-macchiato-dark.css",
+        "examples/preview.md",
         "INSTALL.md",
         "LICENSE",
     ]
@@ -49,6 +50,7 @@ def package():
         for name in sorted(payload):
             info = zipfile.ZipInfo(name, date_time=(2026, 1, 1, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED
+            info.create_system = 3
             info.external_attr = 0o100644 << 16
             bundle.writestr(info, payload[name])
     digest = hashlib.sha256(archive.read_bytes()).hexdigest()

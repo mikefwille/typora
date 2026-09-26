@@ -47,6 +47,16 @@ The current baseline is a visual check of the preview document in all four stand
 Windows, Linux, dialogs, source mode, search, math, diagrams and print/export still need broader coverage.
 Packaging validation checks file integrity and imports; it does not verify visual rendering.
 
+Run the repository checks with Python before publishing a change:
+
+```sh
+python3 scripts/check.py
+```
+
+The checks resolve local documentation/image links, build and extract the installation ZIP, verify its contents and checksum, resolve installed CSS imports, and compare repeated builds.
+GitHub Actions runs these checks on Linux, macOS and Windows.
+These are packaging checks; Typora rendering on Windows and Linux remains unverified.
+
 ## Build a local release ZIP
 
 With Python 3.9 or newer, run from the repository root:
@@ -56,7 +66,7 @@ python3 scripts/package.py
 ```
 
 This writes `dist/catppuccin-typora.zip` and a SHA-256 checksum alongside it.
-The ZIP includes `themes/`, `extras/`, `INSTALL.md` and `LICENSE`.
+The ZIP includes `themes/`, `extras/`, `examples/preview.md`, `INSTALL.md` and `LICENSE`.
 It excludes local drafts, review surfaces, Git metadata, and development files.
 The script checks that every CSS import resolves after installation and that all four standard entries are present.
 Extract the ZIP and follow `INSTALL.md` for a final installation check.

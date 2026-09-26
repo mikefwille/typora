@@ -13,7 +13,10 @@
 
 Soothing pastels for writing in Typora, with four Catppuccin flavors and visible color in headings, emphasis, links, and code.
 
-**[Download ZIP](https://github.com/mikefwille/typora/archive/refs/heads/main.zip)** · [Install](#installation) · [Choose a flavor](#flavors) · [Troubleshooting](#troubleshooting) · [Development](DEVELOPMENT.md)
+**[Download preview ZIP](https://github.com/mikefwille/typora/releases/download/v0.1.0/catppuccin-typora.zip)** · [Install](#installation) · [Choose a flavor](#flavors) · [Troubleshooting](#troubleshooting) · [Development](DEVELOPMENT.md)
+
+The preview release contains the installation files, sample document, and MIT license.
+[Browse releases](https://github.com/mikefwille/typora/releases) or [download the latest source](https://github.com/mikefwille/typora/archive/refs/heads/main.zip).
 
 Community port in development; not yet adopted or endorsed by the Catppuccin organization.
 
@@ -28,7 +31,7 @@ Community port in development; not yet adopted or endorsed by the Catppuccin org
 
 ## Installation
 
-1. [Download this repository as a ZIP](https://github.com/mikefwille/typora/archive/refs/heads/main.zip) and extract it.
+1. [Download the preview ZIP](https://github.com/mikefwille/typora/releases/download/v0.1.0/catppuccin-typora.zip) and extract it.
 2. In Typora, open **Preferences → Appearance → Open Theme Folder**.
 3. Copy the **contents** of `themes/` into that folder: all four CSS files and the entire `catppuccin` directory.
 4. Restart Typora and select **Catppuccin Latte**, **Frappé**, **Macchiato**, or **Mocha** from **Themes**.
@@ -114,7 +117,7 @@ See [DEVELOPMENT.md](DEVELOPMENT.md) for the verification checklist and local pa
 ## Attribution
 
 This port builds on [Stephan Lamoureux's Typora theme](https://github.com/stephanlamoureux/typora-catppuccin), under the MIT license.
-Visible accent styling was developed by Mike Wille, with inspiration from [Catppuccin for Obsidian](https://github.com/catppuccin/obsidian).
+Visible accent styling was developed by Mike Wille.
 The repository structure follows [Catppuccin's template](https://github.com/catppuccin/template).
 
 ## 💝 Thanks to
